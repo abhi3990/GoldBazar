@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.header {
+  margin: 1% 6%;
+  display: flex;
+  justify-content: center;
+}
+
+.header .header-images {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.header .header-data {
+  width: 40%;
+}
+.header .header-data h3 {
+  margin: 1% 5%;
+}
+.header .header-data p {
+  margin: 10% 5%;
+}
+
+.header .header-images img {
+  width: 14rem;
+  height: 10rem;
+  margin: 1%;
+}
+
+.content .down-image {
+  background-image: url("https://pixahive.com/wp-content/uploads/2021/03/Bangles-on-the-grass-401931-pixahive.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content .down-image-data {
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  /* opacity: 0.6; */
+
+  padding: 10%;
+  background-color: rgba(5, 5, 5, 0.446);
+  align-items: center;
+  justify-content: center;
+}
+
+.content .down-image-data img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+  background: none;
+}
+
+.content .down-image-data p {
+  padding: 1%;
+  color: white;
+  width: 40%;
+  font-size: 1.3rem;
+}
+
+.footer {
+  background-color: rgb(240, 240, 240);
+  padding: 2%;
+  margin: 1% 0%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .footer-item {
+  width: 20%;
+  padding: 2%;
+  height: 30vh;
+}
+
+.footer .footer-item h2 {
+  margin: 2% 0%;
+}
+
+.footer .footer-item li {
+  list-style-type: none;
+  margin: 5% 0%;
+}
+
+.footer .footer-item li .footer-item-social-links img {
+  height: 1rem;
+  margin: 1%;
+}
+
+.footer .footer-item li a {
+  text-decoration: none;
+  color: black;
+}
+
+.content .content-team {
+  margin: 5% 0%;
+}
+.content .content-team h3 {
+  margin: 1% 15%;
+}
+.content .content-team-members {
+  display: flex;
+  justify-content: center;
+}
+.content .content-team-members .content-team-members-items {
+  margin: 1%;
+}
+.content .content-team-members .content-team-members-items img {
+  width: 15rem;
+  height: 13rem;
+}
+.content
+  .content-team-members
+  .content-team-members-items
+  .content-team-members-items-social
+  img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.7%;
+}
